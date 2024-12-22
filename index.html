@@ -13,8 +13,8 @@
 
 <body>
     <nav class="navbar navbar-expand-lg sticky-top z-3 bg-white">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        <div class="container-lg">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,38 +38,39 @@
         </div>
     </nav>
     <section id="home" class="position-relative overflow-hidden">
-        <div class="row">
-            <div class="left col-12 col-md-6 d-flex flex-column justify-content-end pb-5 ps-5">
-                <p class="hi mb-1 ms-5">Hi, I am</p>
-                <h1 class="name mb-0 ms-5">Fasalu Rahman</h1>
-                <h5 class="position ms-5">Full Stack Developer / Designer</h5>
-                <div class="social mt-5 ms-5">
+        <div class="row flex-column-reverse flex-md-row">
+            <div class="left col-12 col-md-6 d-flex flex-column justify-content-end mt-5 pt-5 pb-5 ps-5">
+                <p class="hi mb-1 ms-md-3">Hi, I am</p>
+                <h1 class="name mb-0 ms-md-3">Fasalu Rahman</h1>
+                <h5 class="position ms-md-3">Full Stack Developer / Designer</h5>
+                <div class="social mt-5 ms-md-3">
                     <ul class="ist-group list-group-horizontal  p-0 m-0 d-flex">
-                        <li class="list-group-item me-3"><a class="text-black fs-2" href="https://github.com/faslkp"><i
-                                    class="fa-brands fa-github"></i></a></li>
-                        <li class="list-group-item me-3"><a class="text-black fs-2"
+                        <li class="list-group-item me-3">
+                            <a class="text-black fs-2" target="_blank" href="https://github.com/faslkp">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="list-group-item me-3"><a class="text-black fs-2" target="_blank"
                                 href="https://www.linkedin.com/in/faslkp/"><i class="fa-brands fa-linkedin"></i></a>
                         </li>
-                        <li class="list-group-item me-3"><a class="text-black fs-2"
+                        <li class="list-group-item me-3"><a class="text-black fs-2" target="_blank"
                                 href="https://facebook.com/faslkp"><i class="fa-brands fa-square-facebook"></i></a></li>
-                        <li class="list-group-item"><a class="text-black fs-2" href="http://wa.me/919539130257/"><i
-                                    class="fa-brands fa-square-whatsapp"></i></a></li>
+                        <li class="list-group-item"><a class="text-black fs-2" target="_blank"
+                                href="http://wa.me/919539130257/"><i class="fa-brands fa-square-whatsapp"></i></a></li>
                     </ul>
                 </div>
             </div>
-            <div class="right col-12 col-md-6 bg-secondary">
+            <div class="right col-12 col-md-6 bg-secondary mt-n3">
                 <img class="ms-auto img-fluid float-end" src="./images/dp.png" alt="profile-photo">
             </div>
         </div>
-        <div class="seperator position-absolute bg-dark">
-
-        </div>
+        <div class="seperator position-absolute bg-dark"></div>
     </section>
     <section id="about" class="bg-dark py-5">
         <div class="padder"></div>
         <div class="container">
             <h3 class="text-white text-center">About Me</h3>
-            <p class="text-white text-center mt-3 w-75 mx-auto">
+            <p class="text-white text-center mt-3 w-100 mx-auto">
                 Hi, I'm Fasalu, a dedicated full-stack developer with a passion for crafting dynamic and user-friendly
                 web applications. On the front end, I specialize in React.js to create seamless, interactive user
                 interfaces. On the back end, I leverage the power of Python Django to build secure, scalable, and
@@ -83,29 +84,31 @@
     <section id="services" class="bg-dark py-5">
         <div class="padder"></div>
         <h3 class="text-white text-center mb-5">Services</h3>
-        <div class="container d-flex justify-content-between flex-wrap">
-            <div class="service w-50">
-                <h5 class="text-center text-white">Web Developement</h3>
-                    <p class="text-center text-white w-75 mx-auto fs-6 fw-light">Building responsive websites with
+        <div class="container">
+            <div class="row">
+                <div class="service col-12 col-md-6 mb-3">
+                    <h5 class="text-center text-white">Web Developement</h3>
+                    <p class="text-center text-white w-100 mx-auto fs-6 fw-light">Building responsive websites with
                         intuitive front-end designs using React.js and efficient back-end architectures powered by
                         Python Django. Focused on delivering scalable and user-focused solutions for modern
                         applications.</p>
-            </div>
-            <div class="service w-50">
-                <h5 class="text-center text-white">Business Email</h3>
-                    <p class="text-center text-white w-75 mx-auto fs-6 fw-light">Providing professional business email
-                        solutions with custom domain integration to enhance brand identity and communication. Perfect
-                        for businesses looking to establish a strong online presence.</p>
-            </div>
-            <div class="service w-100 my-4">
-                <h5 class="text-center text-white">Graphic Designing</h3>
-                    <p class="text-center text-white w-75 mx-auto fs-6 fw-light">Offering creative and visually striking
-                        graphic design services to enhance your brand’s identity. Specializing in logo design, marketing
-                        materials, and custom graphics that reflect your unique vision. From concept to execution, each
-                        design is crafted to communicate your message effectively. Combining artistic expertise with the
-                        latest design tools and trends to ensure high-quality results. Whether you need eye-catching
-                        social media graphics or a complete rebranding, I provide tailored solutions to meet your goals.
-                        Let’s bring your ideas to life with compelling, professional designs.</p>
+                </div>
+                <div class="service col-12 col-md-6 mb-3">
+                    <h5 class="text-center text-white">Business Email</h3>
+                        <p class="text-center text-white w-100 mx-auto fs-6 fw-light">Providing professional business email
+                            solutions with custom domain integration to enhance brand identity and communication. Perfect
+                            for businesses looking to establish a strong online presence.</p>
+                </div>
+                <div class="service col-12 my-0">
+                    <h5 class="text-center text-white">Graphic Designing</h3>
+                        <p class="text-center text-white w-100 mx-auto fs-6 fw-light">Offering creative and visually striking
+                            graphic design services to enhance your brand’s identity. Specializing in logo design, marketing
+                            materials, and custom graphics that reflect your unique vision. From concept to execution, each
+                            design is crafted to communicate your message effectively. Combining artistic expertise with the
+                            latest design tools and trends to ensure high-quality results. Whether you need eye-catching
+                            social media graphics or a complete rebranding, I provide tailored solutions to meet your goals.
+                            Let’s bring your ideas to life with compelling, professional designs.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -125,11 +128,61 @@
                         <a class="text-decoration-none text-dark" href="mailto:faslkp@gmail.com">faslkp@gmail.com</a>
                     </p>
                     <h6 class="connect mb-3 mt-5">Locate:</h6>
-                    <iframe class="" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3913.649482618055!2d75.98938107400713!3d11.213548988963042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDEyJzQ4LjgiTiA3NcKwNTknMzEuMCJF!5e0!3m2!1sen!2sin!4v1734781580641!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3913.649482618055!2d75.98938107400713!3d11.213548988963042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDEyJzQ4LjgiTiA3NcKwNTknMzEuMCJF!5e0!3m2!1sen!2sin!4v1734781580641!5m2!1sen!2sin"
+                        height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+                <div class="col-12 col-md-6 mt-5 mt-md-0">
+                    <h6 class="connect mb-3">Send a message:</h6>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPlace" class="form-label">Place</label>
+                            <input type="text" class="form-control" id="inputPlace">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputMobile" class="form-label">Mobile</label>
+                            <input type="tel" class="form-control" id="inputMobile">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="inputMessage" rows="4"></textarea>
+                        </div>
+                        <div class="form-check ms-2">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label fs-6 fw-lighter" for="gridCheck">
+                                By clicking "Send", I give my consent to contact me on the above provided mobile number
+                                or email address by call, email, WhatsApp or any other communication platforms.
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary col-12">Send</button>
+                        </div>
+                </div>
+                </form>
             </div>
         </div>
+        </div>
     </section>
+    <footer>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <p class="col-12 col-md-6 text-md-start text-center fs-6 fw-light mb-0">Copyright &copy; 2024 | Fasalu Rahman
+                </p>
+                <p class="col-12 col-md-6 text-md-end text-center fs-6 fw-light">Powered by <a
+                        href="https://kynfo.com">Kynfo</a></p>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
