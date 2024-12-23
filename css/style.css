@@ -30,6 +30,9 @@ body {
     display: block;
     border-radius: 50%;
 }
+.text-justify {
+    text-align: justify;
+}
 @media all and (max-width:1080px) {
     .seperator {
         width: 200px;
