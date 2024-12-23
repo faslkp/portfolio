@@ -19,6 +19,17 @@ body {
     background-color: rgb(0, 0, 0, 0.7);
     opacity: 1 !important;
 }
+.exp-com-logo {
+    width: 7rem;
+    justify-self: 7rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.exp-com-logo img {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+}
 @media all and (max-width:1080px) {
     .seperator {
         width: 200px;
