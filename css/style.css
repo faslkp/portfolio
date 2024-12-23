@@ -33,6 +33,9 @@ body {
 .text-justify {
     text-align: justify;
 }
+.w-md-50 {
+    width: 50%;
+}
 @media all and (max-width:1080px) {
     .seperator {
         width: 200px;
@@ -41,6 +44,11 @@ body {
         bottom: 0;
         left: 35%;
         transform: skewX(-15deg);
+    }
+}
+@media all and (max-width:991px) {
+    .w-md-50 {
+        width: 75%;
     }
 }
 @media all and (max-width:960px) {
@@ -70,6 +78,11 @@ body {
         top: 55%;
         left: -50px;
         transform: skewX(-20deg) rotate(-5deg);
+    }
+    .w-md-50 {
+        width: 75%;
+        text-align: center;
+
     }
 }
 @media all and (max-width:576px) {
